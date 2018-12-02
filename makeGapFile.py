@@ -1,3 +1,4 @@
+# NOTICE! This script assumes the correct CSV-files have been downloaded by helaAfrika.py into the csv-folder
 import csv
 import os
 from math import log
@@ -41,10 +42,7 @@ def processGaps(countries):
     for country in countries:
         country.visGap = log((country.gap - lowestGap) + 1)
 
-
-
-
-
+# Create a bunch of CountryInfo objects and add them to a list
 countries = []
 for filename in os.listdir("csv"):
     country = extractCountryInfo("csv/" + filename)
@@ -52,6 +50,7 @@ for filename in os.listdir("csv"):
 
 processGaps(countries)
 
+# Go through the list and create the output csv-file
 outputString = ""
 outputString += "Country_code,Gap,Date;VisGap\n"
 for country in countries:
