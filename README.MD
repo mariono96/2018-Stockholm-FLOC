@@ -14,6 +14,7 @@ The following python packages are needed:
 * hdx-python-api  
 * hdx-python-country   
 * hdx-python-utilities
+* pandas
 
 ### Services used
 The Humanitarian Data Exchange (HDX)
