@@ -1,0 +1,9 @@
+country,id,name,code,startDate,endDate,year,Requirements,Funding,Percent Funded
+#country+name,#activity+appeal+id+fts_internal,#activity+appeal+name,#activity+appeal+id+external,#date+start,#date+end,#date+year,#value+funding+required+usd,#value+funding+total+usd,#value+funding+pct
+Angola,182,Angola Marburg VHF  2005,FAGO05,2005-04-01,2005-06-30,2005,4027000,3158210,78
+Angola,151,Angola 2004,CAGO04,2004-01-01,2004-12-31,2004,136020262,130063909,95
+Angola,117,Angola 2003,CAGO03,2003-01-01,2003-12-31,2003,313843200,172657539,55
+Angola,89,Angola 2002,CAGO02,2002-01-01,2002-12-31,2002,296351345,206096952,69
+Angola,34,Angola 2001,CAGO01,2001-01-01,2001-12-31,2001,233190355,116609636,50
+Angola,49,Angola 2000,CAGO00,2000-01-01,2000-12-31,2000,262338124,141527669,53
+Angola,,Not specified,,,,,,349433845,
